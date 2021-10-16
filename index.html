@@ -20,7 +20,7 @@
 <tbody>
   <tr>
     <td width="19%" valign="top" height="173">
-      <img height="235" id="photo" style="padding: 0pt 30pt 0pt 20pt; float: left; display: inline;" src="./img/me.png">
+      <img height="235" id="photo" style="padding: 0pt 30pt 0pt 20pt; float: left; display: inline;" src="./picture/ID Photo.png">
     </td>
     
     <td width="80%" valign="top" height="173">
@@ -46,11 +46,10 @@
 
 <h2>Biography</h2>
 <p style="text-align:justify;">
-  I am currently a third-year Master candidate of <a href="http://www.ise.neu.edu.cn/" target="_blank">College of Information Science and Engineering</a>, <a href="http://www.neu.edu.cn/" target="_blank">Northeastern University</a>. My supervisor is <a href="https://baike.baidu.com/item/%E7%BD%97%E5%BA%86%E7%94%9F/5737225?fr=aladdin" target="_blank">Dr. Qingsheng Luo</a>.
-  Prior to that, I received my Bachelor's degree from <a href="http://www.neu.edu.cn" target="_blank">Northeastern University</a> in 2020.
+  I am currently a third-year Master candidate of <a href="http://www.ise.neu.edu.cn/" target="_blank">College of Information Science and Engineering</a>, <a href="http://www.neu.edu.cn/" target="_blank">Northeastern University</a>. And I received my Bachelor's degree from <a href="http://www.neu.edu.cn" target="_blank">Northeastern University</a> in 2020.
 </p>
 <p> 
-  My research interest includes Computer Vision and SLAM.
+  My research interest includes Computer Vision and Multi-sensor fusion SLAM.
 </p>
 <strong>About me:</strong> [<a href="https://github.com/Linghao-Yang" target="_blank">Github</a>]
 <!--<h2>Projects after 2020</h2>
@@ -70,14 +69,14 @@ Personal implementation of <strong><a href="https://onlinelibrary.wiley.com/doi/
 </div>
 </body>-->
 
-<h2>Projects before 2020</h2>
+<h2>Projects</h2>
   <table border="0" width="100%">
   <tbody> 
-<!-- Stereo Loc--> 
+<!-- Stereo Loc 1--> 
    <tr>
       <td>
         <div align="center">
-          <img width="180" height="120" src="./img/camera_lidar.gif" alt="">
+          <img width="180" height="120" src="./picture/Stereo Loc.png" alt="">
         </div>
       </td>
       <td>
@@ -85,161 +84,183 @@ Personal implementation of <strong><a href="https://onlinelibrary.wiley.com/doi/
         <br>
         <br>
         <strong>Personal implementation of </strong>
-        <strong><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/rob.21936">Multimodal localization: Stereo over LiDAR map JFR2020.</a></strong> It contains:</br>
-<br/>
-1) Map Generation which support traditional features or deeplearning features.</br>
-2) Hierarchical-Localizationvisual in visual(points or line) map.</br>
-3) Fusion framework with IMU, wheel odom and GPS sensors.</br>
+        <strong><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/rob.21936">Multimodal localization: Stereo over LiDAR map JFR2020.</a></strong> A priori LiDAR map-based stereo vision localization system is built on CPU platform. It achieves sub-meter level localization accuracy on KITTI odometry dataset.
         <br> 
         <br>
-        [<a href="https://github.com/Linghao-Yang" target="_blank">Project page</a>]
-        [<a href="https://github.com/Linghao-Yang" target="_blank">Code</a>]
+        [<a href="https://github.com/Linghao-Yang/LiDAR-Map-Based-Stereo-Localization" target="_blank">Project page</a>]
+        [<a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">Video</a>]
       </td>
     </tr>  
-<!-- Multi Objects Motion Aware -->   
+
+<!-- Multi Objects Motion Aware 2-->   
     <tr>
       <td>
         <div align="center">
-          <img width="180" height="120" src="./img/camera_lidar.gif" alt="">
+          <img width="180" height="120" src="./picture/multi-object motion estimation.png" alt="">
         </div>
       </td>
       <td>
-        <a href="https://github.com/Linghao-Yang">MOMA SLAM</a>
+        <a href="https://github.com/Linghao-Yang">multi-object motion estimation</a>
         <br>
         <br>
-        <strong>The package </strong>
-        is used to calibrate a 2D LiDAR or laser range finder(LRF) with a monocular camera. Specficially, Hokuyo UTM-30LX have been suscessfully calibrated against a mono camera.
+        <strong>Personal paper </strong>. 
+        The system fuses the structural information provided by the SLAM process and the semantic information provided by the object detection algorithm to achieve the position estimation of dynamic objects in the scene. The fusion of multi-source information allows the system to reduce the dependence on a high-accuracy 3D object detection network while ensuring the accuracy of object pose estimation. In addition, we design a dynamic object detection method that combines semantic and geometric information to construct object-level static maps for map matching and relocalization while realizing motion perception of dynamic objects.
         <br> 
         <br>
-        [<a href="https://github.com/Linghao-Yang" target="_blank">Project page</a>]
-        [<a href="https://github.com/Linghao-Yang" target="_blank">Code</a>]
+        [<a href="https://github.com/Linghao-Yang/multi-object-motion-estimation" target="_blank">Project page</a>]
+        [<a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">Video</a>]
       </td>
     </tr>
-<!-- Mono Loc -->    
+
+<!-- Mono Loc 3-->    
     <tr>
       <td>
         <div align="center">
-          <img width="180" height="120" src="./img/camera_lidar.gif" alt="">
+          <img width="180" height="120" src="./picture/Mono Loc.png" alt="">
         </div>
       </td>
       <td>
         <a href="https://github.com/Linghao-Yang">Mono Loc</a>
         <br>
         <br>
-        <strong>The package </strong>
-        is used to calibrate a 2D LiDAR or laser range finder(LRF) with a monocular camera. Specficially, Hokuyo UTM-30LX have been suscessfully calibrated against a mono camera.
+        <strong>Personal implementation of </strong>
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7759304">Monocular camera localization in 3d lidar maps IROS2016.</a></strong> A priori LiDAR map-based monocular vision localization system is built on CPU platform. It significantly constrains the scale drift of mono VO, and achieves sub-meter level localization accuracy on KITTI odometry dataset.
         <br> 
         <br>
-        [<a href="https://github.com/Linghao-Yang" target="_blank">Project page</a>]
-        [<a href="https://github.com/Linghao-Yang" target="_blank">Code</a>]
+        [<a href="https://github.com/Linghao-Yang/LiDAR-Map-Based-Mono-Localization" target="_blank">Project page</a>]
+        [<a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">Video</a>]
       </td>
     </tr>
-<!-- HD Map Loc --> 
+
+<!-- Distance-Transform-Alignment 4--> 
     <tr>
       <td>
         <div align="center">
-          <img width="180" height="120" src="./img/tracking.gif" alt="">
+          <img width="180" height="120" src="./picture/DT Align.png" alt="">
         </div>
       </td>
       <td>
-        <a href="https://github.com/Linghao-Yang" target="_blank">HD Map Loc</a>
+        <a href="https://github.com/Linghao-Yang" target="_blank">Distance Transform Alignment</a>
         <br>
         <br>
-        <strong>HD Map Loc </strong>
-        package is a mono version of MSCKF. The software takes in synchronized mono images and IMU messages and generates real-time 6DOF pose estimation of the IMU frame.
+        <strong>Personal implementation of </strong>
+        distance transform based HD Map Alignment for HD Map based monocular localization.
+        Reference
+        <a href="https://arxiv.org/pdf/2107.02557.pdf">Coarse-to-fine Semantic Localization with HD Map for Autonomous Driving in Structural Scenes IROS2021.</a>
+        <a href="https://arxiv.org/pdf/2103.14826.pdf">Compact 3D Map-Based Monocular Localization Using Semantic Edge Alignment arxiv2021.</a>
         <br> 
         <br>
-        [<a href="https://github.com/Linghao-Yang" target="_blank">Project page</a>]
-        [<a href="https://github.com/Linghao-Yang" target="_blank">Code</a>]
+        [<a href="https://github.com/Linghao-Yang/Distance-Transform-Alignment" target="_blank">Project page</a>]
+        [<a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">Video</a>]
       </td>
     </tr>   
-<!-- Road Map Loc --> 
+
+<!-- Road Map Loc 5--> 
     <tr>
       <td>
         <div align="center">
-          <img width="180" height="120" src="./img/pose_graph.gif" alt="">
+          <img width="180" height="120" src="./picture/Road Mapping.png" alt="">
         </div>
       </td>
       <td>
         <a href="https://github.com/TurtleZhong/PoseGraph-Ceres" target="_blank">Road Map</a>
         <br>
         <br>
-        <strong>This tool </strong>
-        can optimize the pose and eliminate the cumulative error.
+        <strong>Personal implementation of </strong>
+        Road Marking mapping system.
+        Reference
+        <a href="https://arxiv.org/pdf/2107.02557.pdf">Road-SLAM: Road marking based SLAM with lane-level accuracy IV2017.</a>
+        <a href="https://arxiv.org/pdf/2103.14826.pdf">RoadMap: A Light-Weight Semantic Map for Visual Localization towards Autonomous Driving ICRA2021.</a>
         <br>
         <br>
-        [<a href="https://github.com/TurtleZhong/PoseGraph-Ceres" target="_blank">Project page</a>]
-        [<a href="https://github.com/TurtleZhong/PoseGraph-Ceres" target="_blank">Code</a>]
+        [<a href="https://github.com/Linghao-Yang/Road-Map-SLAM" target="_blank">Project page</a>]
+        [<a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">Video</a>]
 
       </td>
     </tr>
 
-<!-- 3D Quadric Landmark --> 
+<!-- DXSLAM(Mono) Reloc 6--> 
 <tr>
   <td>
     <div align="center">
-      <img width="180" height="120" src="./img/reconstruction.gif" alt="">
+      <img width="180" height="120" src="./picture/DXSLAM(Mono) Reloc.png" alt="">
     </div>
   </td>
   <td>
-    <a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">3D Quadric Landmark.</a>
+    <a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">DXSLAM(Mono) Reloc.</a>
     <br>
     <br>
-    <strong>It </strong>
-    is a simple SLAM system based on RGBD-cameras.
+    <strong>Personal implementation of </strong>
+    monocular relocalization based on the HF-Net visual feature map built by DX-SLAM(personal implementation of mono version).
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9340907&tag=1">Dxslam: A robust and efficient visual slam system with deep features IROS2020.</a>
     <br>
     <br>
+    [<a href="https://github.com/Linghao-Yang/DX-SLAM-Mono-Relocalization" target="_blank">Project page</a>]
     [<a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">Video</a>]
 
   </td>
 </tr>
 
-<!-- 实验室项目 -->
+<!-- AGV amcl 7--> 
 <tr>
   <td>
     <div align="center">
-      <img width="180" height="120" src="./img/grab.gif" alt="">
+      <img width="180" height="120" src="./picture/amcl.png" alt="">
     </div>
   </td>
   <td>
-    <a href="http://bbs.robomasters.com/portal.php" target="_blank">AGV.</a>
-
-
+    <a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">DXSLAM(Mono) Reloc.</a>
     <br>
     <br>
-    <strong>This </strong>
-    projects aims to design an autonomous MAV and a mobile robot that can grab the doll and place it in the bucket corresponding to the doll pattern.
+    <strong>Personal implementation of </strong>
+    AMCL-based indoor UGV navigation.
     <br>
     <br>
-    [<a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">News</a>]
+    [<a href="https://github.com/Linghao-Yang/AGV-AMCL" target="_blank">Project page</a>]
     [<a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">Video</a>]
 
   </td>
 </tr>
+
+<!-- Semantic Mapping 8--> 
+<tr>
+  <td>
+    <div align="center">
+      <img width="180" height="120" src="./picture/Semantic Mapping.png" alt="">
+    </div>
+  </td>
+  <td>
+    <a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">DXSLAM(Mono) Reloc.</a>
+    <br>
+    <br>
+    <strong>Simple implementation of </strong>
+    semantic LiDAR mapping.
+    <br>
+    <br>
+    [<a href="https://github.com/Linghao-Yang/LiDAR-Semantic-Mapping" target="_blank">Project page</a>]
+    [<a href="https://github.com/TurtleZhong/Projects-Summary" target="_blank">Video</a>]
+
+  </td>
+</tr>
+
 
   </tbody>
   </table>
   <!-- comments -->
   <!--   <font size="2">The ACM SIGGRAPH (AISA) and the ACM Transactions on Graphics are the top conference and top journal in the field of computer graphics respectively.</font> -->
 
-<h2>Experiences</h2>
+<!--<h2>Experiences</h2>
 <ul style="list-style-type:disc">
   <li> June. 2018 - Aug. 2018 &nbsp;Research Intern, MIG Mobile Robot LAB, <a href="https://hr.tencent.com/index.php" target="_blank">Tencent</a> China</font> </li>
   <li> Jul. 2017 - Feb. 2018 &nbsp;Research Intern, SLAM group, <a href="https://www.deepmotion.ai/" target="_blank">DeepMotion</a> China</font> </li>
   <li> Jul. 2016 - Sep. 2016 &nbsp;Research Intern, Robomasters department, <a href="https://www.dji.com/cn" target="_blank">DJI</a> China</font> </li>
-</ul>
+</ul>-->
 
 
 <h2>Awards and Honors</h2>
 <ul style="list-style-type:disc">
   <li> Jun. 2020: <font face="楷体_GB2312">东北大学校长奖学金.</font> </li>
   <li> Jun. 2020: <font face="楷体_GB2312">东北大学一等学业奖学金.</font> </li>
-  <!-- <li> Jun. 2016: <font face="楷体_GB2312">2016年北京理工大学优秀毕业生.</font> </li>
-  <li> Jan. 2016: <font face="楷体_GB2312">2016年北京理工大学学生科技创新先锋.</font>
-  <li> Dec. 2015: <font face="楷体_GB2312">第十四届“挑战杯”全国大学生课外学术科技作品竞赛 一等奖.</font>
-  <li> Oct. 2015: <font face="楷体_GB2312">中国航天科技集团公司 CASC 奖学金 一等奖.</font>
-  <li> May. 2015: <font face="楷体_GB2312">第八届“挑战杯”首都大学生课外学术科技作品竞赛 一等奖.</font>
-  <li> Dec. 2014: <font face="楷体_GB2312">第七届全国大学生创新创业年会荣获“我最喜爱的项目”和“最佳创意项目”.</font>-->
 </ul>
 
 <!--
