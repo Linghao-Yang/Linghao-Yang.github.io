@@ -4,7 +4,7 @@ papers:
       link: https://ieeexplore.ieee.org/abstract/document/1031065
       name: "Fast, Robust, Accurate, Multi-Body Motion Aware SLAM"
     authors:
-      - name: Yang Linghao
+      - me: true
         href: 
       - name: Zhang Y
         href: 
@@ -35,7 +35,7 @@ papers:
       link: https://arxiv.org/abs/2309.17036
       name: "UniQuadric: A SLAM Backend for Unknown Rigid Object 3D Tracking and Light-Weight Modeling"
     authors:
-      - name: Yang Linghao
+      - me: true
         href: 
         star: true
       - name: Wu Y
@@ -73,7 +73,7 @@ papers:
       - name: Cao Z
         href: 
       - name: Jing P
-      - name: Yang Linghao
+      - me: true
         href: 
       - name: Coleman S
         href: 
@@ -100,7 +100,7 @@ papers:
         star: true
       - name: Feng Y
         href: 
-      - name: Yang Linghao
+      - me: true
         href: 
       - name: Cao Z
         href: 
@@ -131,7 +131,7 @@ papers:
         href: 
       - name: Zhu D
         href: 
-      - name: Yang Linghao
+      - me: true
         href: 
       - name: Cao Z
         href: 
@@ -159,7 +159,7 @@ papers:
         href: 
       - name: Wu Y
         href: 
-      - name: Yang Linghao
+      - me: true
         href: 
       - name: Coleman S
         href: 
