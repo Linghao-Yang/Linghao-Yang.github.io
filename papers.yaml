@@ -109,7 +109,7 @@ papers:
       - name: pdf
         href: https://ieeexplore.ieee.org/abstract/document/9811925
     description: 
-    highlighted: false
+    highlighted: true
     nogif: true
     img2: true
 
@@ -134,7 +134,7 @@ papers:
       - name: pdf
         href: https://arxiv.org/abs/2303.02000
     description:
-    highlighted: false
+    highlighted: true
     nogif: true
     img2: true
 
@@ -151,6 +151,6 @@ papers:
       - name: video
         href: https://arxiv.org/abs/2303.02000
     description:
-    highlighted: false
+    highlighted: true
     nogif: true
     img2: true
