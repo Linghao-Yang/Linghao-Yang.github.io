@@ -137,3 +137,20 @@ papers:
     highlighted: false
     nogif: true
     img2: true
+
+    - name: MonoLoc
+    title:
+      link: https://arxiv.org/abs/2303.02000
+      name: BSH-Det3D Improving 3D Object Detection with BEV Shape Heatmap
+    authors:
+      - me: true
+    conference:
+      name: International Conference on Intelligent Robots and Systems (IROS)
+      year: 2023
+    links:
+      - name: video
+        href: https://arxiv.org/abs/2303.02000
+    description:
+    highlighted: false
+    nogif: true
+    img2: true
