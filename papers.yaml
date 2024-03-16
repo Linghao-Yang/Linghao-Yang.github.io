@@ -30,17 +30,11 @@ papers:
       name: "UniQuadric: A SLAM Backend for Unknown Rigid Object 3D Tracking and Light-Weight Modeling"
     authors:
       - me: true
-
-        star: true
       - name: Wu Y
-
       - name: Deng Y
-
       - name: Rui T
       - name: Hu X
-
       - name: Ma T
-
         star: true
     conference:
       name: 'Under review'
@@ -64,7 +58,6 @@ papers:
         star: true
       - name: Cao Z
       - name: Jing P
-      - me: true
       - name: Coleman S
       - name: Kerr D
     conference:
@@ -85,7 +78,6 @@ papers:
       - name: Zhang Y
         star: true
       - name: Feng Y
-      - me: true
       - name: Cao Z
       - name: Coleman S
       - name: Kerr D
@@ -128,6 +120,7 @@ papers:
     authors:
       - name: Shen Y
       - name: Zhang Y
+        star: true
       - name: Wang Z
       - name: Wu Y
       - me: true
