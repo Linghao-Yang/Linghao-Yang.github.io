@@ -109,7 +109,7 @@ papers:
       - name: pdf
         href: https://ieeexplore.ieee.org/abstract/document/9811925
     description: 
-    highlighted: true
+    highlighted: false
     nogif: true
     img2: true
 
@@ -134,7 +134,7 @@ papers:
       - name: pdf
         href: https://arxiv.org/abs/2303.02000
     description:
-    highlighted: true
+    highlighted: false
     nogif: true
     img2: true
 
@@ -148,7 +148,7 @@ papers:
       - name: video
         href: https://youtu.be/iQVhdhqFTZQ
     description:
-    highlighted: true
+    highlighted: false
     nogif: true
     img2: true
 
@@ -162,7 +162,7 @@ papers:
       - name: video
         href: https://youtu.be/yMOtRGNJRHU
     description:
-    highlighted: true
+    highlighted: false
     nogif: true
     img2: true
 
@@ -176,7 +176,7 @@ papers:
       - name: video
         href: https://youtu.be/16kau1WiWrc
     description:
-    highlighted: true
+    highlighted: false
     nogif: true
     img2: true
 
@@ -190,6 +190,6 @@ papers:
       - name: video
         href: https://youtu.be/bFAcPhK8Xzc
     description:
-    highlighted: true
+    highlighted: false
     nogif: true
     img2: true
