@@ -5,19 +5,13 @@ papers:
       name: "Fast, Robust, Accurate, Multi-Body Motion Aware SLAM"
     authors:
       - me: true
-        href: 
       - name: Zhang Y
-        href: 
         star: true
       - name: Tian R
-        href: 
       - name: Liang S
       - name: Shen Y
-        href: 
       - name: Coleman S
-        href: 
       - name: Kerr D
-        href: 
     conference:
       name: IEEE Transactions on Intelligent Transportation Systems (T-ITS)
       year: 2023
@@ -36,17 +30,17 @@ papers:
       name: "UniQuadric: A SLAM Backend for Unknown Rigid Object 3D Tracking and Light-Weight Modeling"
     authors:
       - me: true
-        href: 
+
         star: true
       - name: Wu Y
-        href: 
+
       - name: Deng Y
-        href: 
+
       - name: Rui T
       - name: Hu X
-        href: 
+
       - name: Ma T
-        href: 
+
         star: true
     conference:
       name: 'Under review'
@@ -66,19 +60,13 @@ papers:
       name: "Object SLAM With Robust Quadric Initialization and Mapping for Dynamic Outdoors"
     authors:
       - name: Tian R
-        href: 
       - name: Zhang Y
-        href: 
         star: true
       - name: Cao Z
-        href: 
       - name: Jing P
       - me: true
-        href: 
       - name: Coleman S
-        href: 
       - name: Kerr D
-        href: 
     conference:
       name: "IEEE Transactions on Intelligent Transportation Systems (T-ITS)"
       year: 2023
@@ -94,20 +82,13 @@ papers:
       link: https://ieeexplore.ieee.org/abstract/document/9662189
     authors:
       - name: Tian R
-        href: 
       - name: Zhang Y
-        href: 
         star: true
       - name: Feng Y
-        href: 
       - me: true
-        href: 
       - name: Cao Z
-        href: 
       - name: Coleman S
-        href: 
       - name: Kerr D
-        href: 
     conference:
       name: 'IEEE Robotics and Automation Letters (RAL)'
       year: 2021
@@ -123,18 +104,12 @@ papers:
       name: SemLoc Accurate and Robust Visual Localization with Semantic and Structural Constraints from Prior Maps
     authors:
       - name: Liang S
-        href: 
       - name: Zhang Y
-        href: 
         star: true
       - name: Tian R
-        href: 
       - name: Zhu D
-        href: 
       - me: true
-        href: 
       - name: Cao Z
-        href: 
     conference:
       name: International Conference on Robotics and Automation (ICRA)
       year: 2022
@@ -152,17 +127,11 @@ papers:
       name: BSH-Det3D Improving 3D Object Detection with BEV Shape Heatmap
     authors:
       - name: Shen Y
-        href: 
       - name: Zhang Y
-        href: 
       - name: Wang Z
-        href: 
       - name: Wu Y
-        href: 
       - me: true
-        href: 
       - name: Coleman S
-        href: 
       - name: Kerr D
         href:
     conference:
