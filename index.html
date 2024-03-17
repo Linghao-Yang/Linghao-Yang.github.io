@@ -155,7 +155,7 @@
   <div id="mustache_target">Loading...</div>
   <script id="template" type="text/x-handlebars-template">
     {{#papers}}
-    <div style="width:100%;margin-left:0px;margin-right:0px;margin-top:10px; flex-wrap:wrap-reverse; " class="table-like {{#unless highlighted}}hiddenPubs{{/unless}}" onmouseout="gif_stop('{{name}}_image', '{{name}}_gif')" onmouseover="gif_start('{{name}}_image', '{{name}}_gif')">
+    <div style="width:100%;margin-left:0px;margin-right:0px;margin-top:10px; flex-wrap:wrap-reverse; " class="table-like {{#unless highlighted}}hiddenPubs{{/unless}}" onmouseout="gif_stop('{{name}}_image', '{{name}}_gif')">
       <div class="zero" style="flex: 1 0 270px;margin-top:0px;margin-right:20px;max-width:270px;">
         <div class="one">
           {{#unless nogif}}
@@ -168,7 +168,7 @@
               <img src='images/{{name}}_after.png' class="paper_img">
             </div>
           {{/if}}
-          <img id='{{name}}_gif' src='images/{{name}}_before.png' class="paper_img">
+          <img id='{{name}}_gif' src='images/{{name}}.png' class="paper_img">
         </div>
           <!-- {{#unless nogif}}
           <p style="text-align: center;margin-top:0.4em;margin-bottom:0em;color:Gray;"><i> Hover/tap to play the gif</i></p>
