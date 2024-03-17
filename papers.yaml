@@ -58,7 +58,6 @@ papers:
         star: true
       - name: Cao Z
       - name: Jing P
-      - me: true
       - name: Coleman S
       - name: Kerr D
     conference:
@@ -79,7 +78,6 @@ papers:
       - name: Zhang Y
         star: true
       - name: Feng Y
-      - me: true
       - name: Cao Z
       - name: Coleman S
       - name: Kerr D
@@ -139,21 +137,3 @@ papers:
     highlighted: false
     nogif: true
     img2: true
-
-    # - name: Reloc
-    # title:
-    #   link: https://youtu.be/bFAcPhK8Xzc
-    #   name: Personal implementation of monocular relocalization based on the HF-Net visual feature map built by DX-SLAM.
-    # authors:
-    #   - me: true
-    # conference:
-    #   name: International Conference on Intelligent Robots and Systems (IROS)
-    #   year: 2023
-    # links:
-    #   - name: video
-    #     href: https://youtu.be/bFAcPhK8Xzc
-    # description:
-    # highlighted: false
-    # nogif: true
-    # img2: true
-    
