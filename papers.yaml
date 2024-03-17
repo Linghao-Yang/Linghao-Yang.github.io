@@ -142,7 +142,7 @@ papers:
   - name: BSH
     title:
       link: https://arxiv.org/abs/2303.02000
-      name: BSH-Det3D Improving 3D Object Detection with BEV Shape Heatmap
+      name: Personal implementation of monocular relocalization based on the HF-Net
     authors:
       - name: Shen Y
       - name: Zhang Y
