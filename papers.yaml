@@ -58,6 +58,7 @@ papers:
         star: true
       - name: Cao Z
       - name: Jing P
+      - me: true
       - name: Coleman S
       - name: Kerr D
     conference:
@@ -78,6 +79,7 @@ papers:
       - name: Zhang Y
         star: true
       - name: Feng Y
+      - me: true
       - name: Cao Z
       - name: Coleman S
       - name: Kerr D
