@@ -137,4 +137,18 @@ papers:
     highlighted: false
     nogif: true
     img2: true
+
+    - name: Reloc
+    title:
+      link: https://youtu.be/bFAcPhK8Xzc
+      name: Personal implementation of monocular relocalization based on the HF-Net visual feature map built by DX-SLAM.
+    authors:
+      - me: true
+    links:
+      - name: video
+        href: https://youtu.be/bFAcPhK8Xzc
+    description:
+    highlighted: false
+    nogif: true
+    img2: true
     
