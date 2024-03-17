@@ -555,3 +555,201 @@
 </div>
 </body>
 </html>
+
+
+papers:
+  - name: FRA
+    title:
+      link: https://ieeexplore.ieee.org/abstract/document/1031065
+      name: "Fast, Robust, Accurate, Multi-Body Motion Aware SLAM"
+    authors:
+      - me: true
+      - name: Zhang Y
+        star: true
+      - name: Tian R
+      - name: Liang S
+      - name: Shen Y
+      - name: Coleman S
+      - name: Kerr D
+    conference:
+      name: IEEE Transactions on Intelligent Transportation Systems (T-ITS)
+      year: 2023
+    links:
+      - name: pdf
+        href: https://ieeexplore.ieee.org/abstract/document/1031065
+      - name: poster
+        href: files/FRA_poster.pdf
+    description: 
+    highlighted: true
+
+
+  - name: Uniquadric
+    title:
+      link: https://arxiv.org/abs/2309.17036
+      name: "UniQuadric: A SLAM Backend for Unknown Rigid Object 3D Tracking and Light-Weight Modeling"
+    authors:
+      - me: true
+      - name: Wu Y
+      - name: Deng Y
+      - name: Rui T
+      - name: Hu X
+      - name: Ma T
+        star: true
+    conference:
+      name: 'Under review'
+      year: 2023
+    links:
+      - name: pdf
+        href: https://arxiv.org/abs/2309.17036
+      - name: poster
+        href: files/Uniquadric_poster.pdf
+    description: 
+    highlighted: true
+
+
+  - name: Rui
+    title:
+      link: https://ieeexplore.ieee.org/abstract/document/10149129
+      name: "Object SLAM With Robust Quadric Initialization and Mapping for Dynamic Outdoors"
+    authors:
+      - name: Tian R
+      - name: Zhang Y
+        star: true
+      - name: Cao Z
+      - name: Jing P
+      - name: Coleman S
+      - name: Kerr D
+    conference:
+      name: "IEEE Transactions on Intelligent Transportation Systems (T-ITS)"
+      year: 2023
+    links:
+      - name: pdf
+        href: https://ieeexplore.ieee.org/abstract/document/10149129
+    description: 
+    highlighted: true
+
+  - name: ARQuadric
+    title:
+      name: "Accurate and robust object SLAM with 3D quadric landmark reconstruction in outdoors"
+      link: https://ieeexplore.ieee.org/abstract/document/9662189
+    authors:
+      - name: Tian R
+      - name: Zhang Y
+        star: true
+      - name: Feng Y
+      - name: Cao Z
+      - name: Coleman S
+      - name: Kerr D
+    conference:
+      name: 'IEEE Robotics and Automation Letters (RAL)'
+      year: 2021
+    links:
+      - name: pdf
+        href: https://ieeexplore.ieee.org/abstract/document/9662189
+    description: 
+    highlighted: true
+
+  - name: SemLoc
+    title:
+      link: https://ieeexplore.ieee.org/abstract/document/9811925
+      name: SemLoc Accurate and Robust Visual Localization with Semantic and Structural Constraints from Prior Maps
+    authors:
+      - name: Liang S
+      - name: Zhang Y
+        star: true
+      - name: Tian R
+      - name: Zhu D
+      - me: true
+      - name: Cao Z
+    conference:
+      name: International Conference on Robotics and Automation (ICRA)
+      year: 2022
+    links:
+      - name: pdf
+        href: https://ieeexplore.ieee.org/abstract/document/9811925
+    description: 
+    highlighted: false
+    nogif: true
+    img2: true
+
+  - name: BSH
+    title:
+      link: https://arxiv.org/abs/2303.02000
+      name: BSH-Det3D Improving 3D Object Detection with BEV Shape Heatmap
+    authors:
+      - name: Shen Y
+      - name: Zhang Y
+        star: true
+      - name: Wang Z
+      - name: Wu Y
+      - me: true
+      - name: Coleman S
+      - name: Kerr D
+        href:
+    conference:
+      name: International Conference on Intelligent Robots and Systems (IROS)
+      year: 2023
+    links:
+      - name: pdf
+        href: https://arxiv.org/abs/2303.02000
+    description:
+    highlighted: false
+    nogif: true
+    img2: true
+
+    - name: RoadMapping
+    title:
+      link: https://youtu.be/iQVhdhqFTZQ
+      name: Personal implementation of Road Marking mapping system.
+    authors:
+      - me: true
+    links:
+      - name: video
+        href: https://youtu.be/iQVhdhqFTZQ
+    description:
+    highlighted: false
+    nogif: true
+    img2: true
+
+    - name: StereoLoc
+    title:
+      link: https://youtu.be/yMOtRGNJRHU
+      name: Personal implementation of "Multimodal localization Stereo over LiDAR map".
+    authors:
+      - me: true
+    links:
+      - name: video
+        href: https://youtu.be/yMOtRGNJRHU
+    description:
+    highlighted: false
+    nogif: true
+    img2: true
+
+    - name: MonoLoc
+    title:
+      link: https://youtu.be/16kau1WiWrc
+      name: Personal implementation of Monocular camera localization in 3d lidar maps.
+    authors:
+      - me: true
+    links:
+      - name: video
+        href: https://youtu.be/16kau1WiWrc
+    description:
+    highlighted: false
+    nogif: true
+    img2: true
+
+    - name: Reloc
+    title:
+      link: https://youtu.be/bFAcPhK8Xzc
+      name: Personal implementation of monocular relocalization based on the HF-Net visual feature map built by DX-SLAM.
+    authors:
+      - me: true
+    links:
+      - name: video
+        href: https://youtu.be/bFAcPhK8Xzc
+    description:
+    highlighted: false
+    nogif: true
+    img2: true
+
