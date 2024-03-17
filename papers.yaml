@@ -22,7 +22,8 @@ papers:
         href: files/FRA_poster.pdf
     description: 
     highlighted: true
-
+    nogif: true
+    img2: true
 
   - name: Uniquadric
     title:
@@ -46,7 +47,8 @@ papers:
         href: files/Uniquadric_poster.pdf
     description: 
     highlighted: true
-
+    nogif: true
+    img2: true
 
   - name: Rui
     title:
@@ -68,6 +70,8 @@ papers:
         href: https://ieeexplore.ieee.org/abstract/document/10149129
     description: 
     highlighted: true
+    nogif: true
+    img2: true
 
   - name: ARQuadric
     title:
@@ -89,6 +93,8 @@ papers:
         href: https://ieeexplore.ieee.org/abstract/document/9662189
     description: 
     highlighted: true
+    nogif: true
+    img2: true
 
   - name: SemLoc
     title:
