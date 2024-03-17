@@ -153,7 +153,7 @@ papers:
     authors:
       - me: true
     conference:
-      name: Personal implementation of monocular relocalization based on the HF-Net visual feature map built by DX-SLAM.
+      name: Personal implementation of monocular relocalization based on the HF-Net visual feature map built by DX-SLAM
       year: 2021
     links:
       - name: video
