@@ -144,6 +144,9 @@ papers:
       name: Personal implementation of monocular relocalization based on the HF-Net visual feature map built by DX-SLAM.
     authors:
       - me: true
+    conference:
+      name: International Conference on Intelligent Robots and Systems (IROS)
+      year: 2023
     links:
       - name: video
         href: https://youtu.be/bFAcPhK8Xzc
