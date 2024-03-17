@@ -83,6 +83,7 @@ papers:
       - name: Zhang Y
         star: true
       - name: Feng Y
+      - me: true
       - name: Cao Z
       - name: Coleman S
       - name: Kerr D
@@ -133,7 +134,6 @@ papers:
       - me: true
       - name: Coleman S
       - name: Kerr D
-        href:
     conference:
       name: International Conference on Intelligent Robots and Systems (IROS)
       year: 2023
