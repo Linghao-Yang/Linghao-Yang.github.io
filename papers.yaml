@@ -163,4 +163,57 @@ papers:
     nogif: true
     img2: true
 
+  - name: RoadMapping
+    title:
+      link: https://youtu.be/iQVhdhqFTZQ
+      name: Road Marking mapping system
+    authors:
+      - me: true
+    conference:
+      name: Personal implementation of Road Marking mapping system
+      year: 2023
+    links:
+      - name: video
+        href: https://youtu.be/iQVhdhqFTZQ
+    description:
+    highlighted: false
+    nogif: true
+    img2: true
+  
+  - name: MonoLoc
+    title:
+      link: https://youtu.be/16kau1WiWrc
+      name: LiDAR map based monocular vision localization
+    authors:
+      - me: true
+    conference:
+      name: Personal implementation of Monocular camera localization in  LiDAR map
+      year: 2021
+    links:
+      - name: video
+        href: https://youtu.be/16kau1WiWrc
+    description:
+    highlighted: false
+    nogif: true
+    img2: true
+
+  - name: StereoLoc
+    title:
+      link: https://youtu.be/yMOtRGNJRHU
+      name: LiDAR map based stereo vision localization
+    authors:
+      - me: true
+    conference:
+      name: Personal implementation of "Multimodal localization Stereo over LiDAR map"
+      year: 2020
+    links:
+      - name: video
+        href: https://youtu.be/yMOtRGNJRHU
+    description:
+    highlighted: false
+    nogif: true
+    img2: true
+
+
+
   
