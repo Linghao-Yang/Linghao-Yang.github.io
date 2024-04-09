@@ -1,7 +1,7 @@
 papers:
   - name: FRA
     title:
-      link: https://ieeexplore.ieee.org/abstract/document/1031065
+      link: https://ieeexplore.ieee.org/abstract/document/10310659
       name: "Fast, Robust, Accurate, Multi-Body Motion Aware SLAM"
     authors:
       - me: true
@@ -17,7 +17,7 @@ papers:
       year: 2023
     links:
       - name: pdf
-        href: https://ieeexplore.ieee.org/abstract/document/1031065
+        href: https://ieeexplore.ieee.org/abstract/document/10310659
       - name: poster
         href: files/FRA_poster.pdf
     description: 
