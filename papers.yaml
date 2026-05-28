@@ -27,7 +27,7 @@ papers:
 
   - name: Uniquadric
     title:
-      link: https://arxiv.org/abs/2309.17036
+      link: https://ieeexplore.ieee.org/document/11130592/
       name: "UniQuadric: A SLAM Backend for Unknown Rigid Object 3D Tracking and Light-Weight Modeling"
     authors:
       - me: true
@@ -38,8 +38,8 @@ papers:
       - name: Ma T
         star: true
     conference:
-      name: 'Under review'
-      year: 2023
+      name: 'IEEE Transactions on Intelligent Transportation Systems (T-ITS)'
+      year: 2025
     links:
       - name: pdf
         href: https://arxiv.org/abs/2309.17036
